@@ -1,0 +1,78 @@
+body{
+    background-image: url(https://travelgreecetraveleurope.com/wp-content/uploads/2020/02/newsletter-bg.jpg);
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-color: #FEF2D8;
+    background-size: 100% auto;
+}
+
+.container{
+    height: 520px;
+    width: 360px;
+    background-image: url(https://www.seekpng.com/png/full/809-8093807_read-more-tour-and-travel-bg.png);
+    background-position: bottom center;
+    background-color: white;
+    margin: 100px auto;
+    box-shadow: 3px 3px 0px 0px #8FB2BF;
+    border-radius: 10px;
+    font-family: Open Sans, sans-serif;
+    
+}
+
+.header{
+    height: 110px;
+    background-color: #8FB2BF;
+    color: #FCF0D6;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 15px;
+    padding: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.main{
+    padding-left: 20px;
+    padding-right:20px;
+    padding-top: 20px;
+    font-size: 15px;
+    color: #8FB2BF;
+    
+}
+
+spam{
+    font-weight: bold;
+}
+
+.submit{
+    text-transform:uppercase;
+    font-weight: bold;
+    display:block;
+    margin: 30px auto;
+    background: #8FB2BF;
+    border-radius:5px;
+    width:200px;
+    height:60px;
+    font-size:17px;
+    color:#FCF0D6;
+}
+
+.submit:hover{
+    text-transform:uppercase;
+    font-weight: 700;
+    display:block;
+    margin: 30px auto;
+    background: #8FB2BF;
+    border-radius:5px;
+    width:200px;
+    height:60px;
+    font-size:17px;
+    color:#000000;
+}
+
+.resultado{
+    color: black;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 500;
+    text-align: center;
+}

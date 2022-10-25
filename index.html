@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Conversor de Valores</title>
+</head>
+<body>
+    <div class="container" id="container">
+
+        <div class="header">
+            <h1> Conversor de Valores </h1>
+        </div>
+
+        <div class="main">
+            <form class="converter">
+                <p> Escolha a moeda de <spam> Origem </spam> e de <spam>Destino</spam></p>
+                <select name="origem" class="origem" id="origem" required>
+                    <option disabled selected> -- Moeda de Origem -- </option>
+                    <option> Real </option>
+                    <option> Dólar </option>
+                    <option> Euro </option>
+                </select>
+                <select name="destino" class="destino" id="destino" required>
+                    <option disabled selected> -- Moeda de Destino -- </option>
+                    <option> Real </option>
+                    <option> Dólar </option>
+                    <option> Euro </option>
+                </select>   
+                <label for="cotation"><p>Cotação da Moeda de Destino</p></label>
+                <input type="number" name="cotation" class="cotation" placeholder="Cotação do Dia" />
+                <label for="conversion"><p>Valor a ser Convertido</p></label>
+                <input type="number" name="conversion" class="conversion" placeholder="Digite o valor" />
+                <button type="submit" class="submit"><p>Converter!</p></button>
+            </form>
+            <p class="resultado" id="resultado"></p>
+        </div>
+
+    </div>
+</body>
+</html>
